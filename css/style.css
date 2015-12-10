@@ -18,4 +18,21 @@ a.navbar-brand.branding {
   width: 40%;
   margin-right: 20px; }
 
+img.demo {
+  width: 100%;
+  border: 1px solid #838383;
+  padding: 3px; }
+
+.col-md-4 {
+  margin-bottom: 20px; }
+
+#demo p {
+  font-size: 18px; }
+
+#features {
+  background: #1CAA98; }
+
+.features-heading {
+  font-size: 36px; }
+
 /*# sourceMappingURL=style.css.map */
