@@ -28,7 +28,7 @@ img.demo {
   border: 1px solid #838383;
   padding: 3px; }
 
-.col-md-4 {
+.col-md-4, .col-md-8 {
   margin-bottom: 20px; }
 
 #demo p {
