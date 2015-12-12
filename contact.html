@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/style.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
   <body>
 
@@ -26,9 +26,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
 
         </div><!-- /.navbar-collapse -->
@@ -36,26 +36,32 @@
     </nav>
 
 
-    <div class="jumbotron">
+
+
+
+    <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1>This is the <span class="branding">Item9</span> Photo App</h1>
-            <img class="banner-icons" src="./img/icon_app_store.png" alt="" />
-            <img class="banner-icons" src="./img/icon_google_play.png" alt="" />
+          <div class="col-md-8">
+
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Company Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <textarea class="form-control" rows="8" cols="40" placeholder="Enter Message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
           </div>
-          <div class="col-md-6">
-            <img class="lrg-img" src="./img/site_phone.png" alt="" />
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <section id="demo">
-      <div class="container">
-        <div class="row">
           <div class="col-md-4">
             <img class="demo" src="./img/demo1.jpg" alt="" />
             <h2>Heading</h2>
@@ -64,44 +70,10 @@
             </p>
             <a href="#" class="btn btn-default">Read More</a>
           </div>
-          <div class="col-md-4">
-            <img class="demo" src="./img/demo2.jpg" alt="" />
-            <h2>Heading</h2>
-            <p>
-              This section will contain information about the individual products displayed on the picture above.
-            </p>
-            <a href="#" class="btn btn-default">Read More</a>
-          </div>
-          <div class="col-md-4">
-            <img class="demo" src="./img/demo3.jpg" alt="" />
-            <h2>Heading</h2>
-            <p>
-              This section will contain information about the individual products displayed on the picture above.
-            </p>
-            <a href="#" class="btn btn-default">Read More</a>
-          </div>
         </div>
       </div>
     </section>
 
-    <section id="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-md-offset-1">
-            <h2 class="features-heading">Item9 Features</h2>
-            <ul>
-              <li><i class="glyphicon glyphicon-check"></i> Vision</li>
-              <li><i class="glyphicon glyphicon-check"></i> Creativty</li>
-              <li><i class="glyphicon glyphicon-check"></i> Design</li>
-              <li><i class="glyphicon glyphicon-check"></i> Attention to detail</li>
-            </ul>
-          </div>
-          <div class="col-md-5 col-md-offset-1">
-            <img src="./img/logo.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
 
     <footer>
       <div class="container">
