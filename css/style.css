@@ -73,7 +73,7 @@ footer {
     height: 380px; } }
 @media (max-width: 500px) {
   .jumbotron {
-    background-color: #0b0255 !important;
+    background-color: #080236 !important;
     height: 380px;
     background-image: none;
     text-align: center; }
